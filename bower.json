@@ -7,7 +7,7 @@
     "Mike Greiling <mike@pixelcog.com> (http://pixelcog.com)",
     "Wolfgang Stöttinger (http://www.wolfography.at)"
   ],
-  "main": "parallax.min.js",
+  "main": "parallax.js",
   "license": "MIT",
   "keywords" : ["parallax", "scroll", "scrolling", "image"],
   "ignore": [
