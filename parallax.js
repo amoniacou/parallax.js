@@ -113,7 +113,7 @@
       return this;
     }
 
-    this.$mirror = $('<div />').prependTo('body');
+    this.$mirror = $('<div />').prependTo(this.mirrorContainer);
 
     var slider = this.$element.find('>.parallax-slider');
     var sliderExisted = false;
@@ -166,6 +166,7 @@
     iosFix:   true,
     androidFix: true,
     position: 'center',
+    mirrorContainer: 'body',
     overScrollFix: false,
 
     refresh: function() {
